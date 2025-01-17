@@ -21,7 +21,7 @@ export function TopNav() {
   return (
     <header className="border-b fixed z-50 top-0 w-full bg-white">
       <div className="w-full flex h-14 pr-4 items-center justify-between">
-        <p className="font-semibold md:hidden">Md Shakil Ahmed</p>
+        <p className="font-semibold md:hidden">Swapnil Biswas</p>
         <MobileNav items={navItems} open={open} onOpenChange={setOpen} />
         <nav className="hidden md:flex items-center gap-2 overflow-x-auto">
           {navItems.map((item) => (
