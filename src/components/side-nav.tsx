@@ -12,7 +12,7 @@ export function SideNav() {
           <AvatarFallback>SA</AvatarFallback>
         </Avatar>
         <div className="space-y-1">
-          <h2 className="text-2xl font-bold">Md Shakil Ahmed</h2>
+          <h2 className="text-2xl font-bold">Swapnil Biswas</h2>
           <p className="text-sm text-muted-foreground">Research Scientist</p>
         </div>
       </CardHeader>
