@@ -152,14 +152,14 @@ export const portfolioData = {
     {
       title: "Comparative Study of SAM and MedSAM Models for Medical Image Segmentation",
       subtitle: " Testing the SAM, SAM2, and MedSAM models on medical image datasets to compare segmentation performance. Additionally, exploring how classification algorithms perform with the segmented data, focusing on transfer learning to address existing research gaps. ",
-     // authors: [
-      //  { name: "", link: null },
-      //  { name: "", link: null },
-       // { name: "", link: null },
-       // { name: "", link: null },
-     //   { name: "", link: null },
-      //  { name: "", link: null }
-     // ],
+      authors: [
+      { name: "", link: null },
+       { name: "", link: null },
+       { name: "", link: null },
+        { name: "", link: null },
+       { name: "", link: null },
+       { name: "", link: null }
+     ],
       image: "/placeholder.svg",
       links: {
         paper: "",
@@ -170,13 +170,13 @@ export const portfolioData = {
       title: "Comparative Analysis of Protein Secondary Structure Prediction",
       subtitle: "Analyzed prediction methods utilizing a graph neural network (GNN), demonstrating the superiority of traditional approaches. ",
       authors: [
-   //     { name: "", link: null },
-      //  { name: "", link: null },
-      //  { name: "", link: null },
-       // { name: "", link: null },
-       // { name: "", link: null },
-       // { name: "", link: null }
-   //   ],
+      { name: "", link: null },
+       { name: "", link: null },
+       { name: "", link: null },
+       { name: "", link: null },
+       { name: "", link: null },
+        { name: "", link: null }
+      ],
       image: "/placeholder.svg",
       links: {
         paper: "",
@@ -187,12 +187,12 @@ export const portfolioData = {
       title: "Predicting Personalized Preferences in the Metaverse with Deep Learning and Gamification",
       subtitle: "Developed a framework to predict personalized preferences using the Metaverse platform, leveraging Big5 personality traits derived from social media interactions. This project involved creating models to predict personality traits from virtual behaviors and to infer preferences from these traits, integrating machine learning and deep learning techniques. ",
       authors: [
-     //   { name: "", link: null },
-      //  { name: "", link: null },
-       // { name: "", link: null },
-       // { name: "", link: null },
-      //  { name: "", link: null },
-       // { name: "", link: null }
+      { name: "", link: null },
+       { name: "", link: null },
+       { name: "", link: null },
+        { name: "", link: null },
+       { name: "", link: null },
+       { name: "", link: null }
       ],
       image: "/placeholder.svg",
       links: {
@@ -204,13 +204,13 @@ export const portfolioData = {
       title: "Big5 Personality Trait-Based Contextual Gamification Platform Selection:",
       subtitle: "Developed platforms for personality trait extraction using LIWC, BERT, and NLP features to enhance gamification strategies. ",
       authors: [
-       // { name: "", link: null },
-       // { name: "", link: null },
-      //  { name: "", link: null },
-       // { name: "", link: null },
-       // { name: "", link: null },
-       // { name: "", link: null }
-    //  ],
+        { name: "", link: null },
+        { name: "", link: null },
+       { name: "", link: null },
+       { name: "", link: null },
+       { name: "", link: null },
+       { name: "", link: null }
+     ],
       image: "/placeholder.svg",
       links: {
         paper: "",
