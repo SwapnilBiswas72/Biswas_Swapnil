@@ -263,7 +263,7 @@ export const portfolioData = {
       ]
     },
     {
-      position: "Undergraduate Teaching Assistant",
+      position: "Undergraduate Teaching Assistant & Grader",
       institution: "United International University, Dhaka",
       period: "2021 – 2023",
       courses: [
@@ -271,11 +271,19 @@ export const portfolioData = {
       ]
     },
     {
-      position: "Grader",
-      institution: "United International University, Dhaka",
-      period: "2021 – 2023",
+      position: "Junior Software Developer",
+      institution: "Amirus, Dhaka, Dhaka",
+      period: "2023– 2024",
       courses: [
-        "Graded assignments."
+        " Developed features, fixed bugs, and wrote unit tests by adhering to coding standards and agile practices, improving code quality and project alignment. "
+      ]
+    },
+    {
+      position: "Content Writer ",
+      institution: "Signature Food Court, Dhaka",
+      period: "2020– 2022",
+      courses: [
+        " Created engaging social media content to boost audience interaction, tailoring language and style to align with brand goals. . "
       ]
     }
   ]
