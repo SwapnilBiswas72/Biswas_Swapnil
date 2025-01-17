@@ -160,7 +160,7 @@ export function PortfolioContent() {
 
             {/* experience Section */}
             <section id="experience" className="space-y-4">
-                <h2 className="text-2xl font-bold">Academic Services</h2>
+                <h2 className="text-2xl font-bold">Work Experiences</h2>
                 <div className="grid gap-4">
                     {portfolioData.experience.map((service, index) => (
                         <Card key={index}>
