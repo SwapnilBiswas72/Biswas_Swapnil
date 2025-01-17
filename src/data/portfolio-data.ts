@@ -207,9 +207,9 @@ export const portfolioData = {
         { name: "Mahbubul Islam", link: null },
         { name: "Swapnil Biswas", link: null },
        { name: "Md Saddam Hossain Mukta", link: null },
-       { name: "", link: null },
-       { name: "", link: null },
-       { name: "", link: null }
+     ///  { name: "", link: null },
+      // { name: "", link: null },
+      // { name: "", link: null }
      ],
       image: "/placeholder.svg",
       links: {
