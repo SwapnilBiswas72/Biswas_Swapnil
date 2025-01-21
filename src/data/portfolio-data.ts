@@ -136,8 +136,7 @@ export const portfolioData = {
         { name: "Swapnil Biswas", link: null },
         { name: "Md. Sadman Sakib", link: null },
         { name: "Scott E Umbaugh", link: null },
-        { name: "Robert LeAnder", link: null },
-        { name: "Md Saddam Hossain Mukta", link: null }
+        { name: "Robert LeAnder", link: null }
       ],
       subtitle: "Accepted for oral presentations at the Thermosense: Thermal Infrared Applications XLVII conference during SPIE Defense + Commercial Sensing 2025 in Orlando (April 13–17, 2025). DOI will be assigned upon publication.",
       image: "/placeholder.svg",
