@@ -1,7 +1,7 @@
 export const portfolioData = {
   about: {
     description: "I am currently working as a research assistant at the CVIP Lab while pursuing a Master of Science in Electrical and Computer Engineering at Southern Illinois University Edwardsville. I hold a B.Sc. in Computer Science and Engineering from United International University. My work and research focus on Machine Learning, Computer Vision, Natural Language Processing, and Data Mining, with a particular interest in applying these technologies to solve real-world problems.",
-    contact: "shakilahmed192077@gmail.com"
+    contact: "sbiswas@siue.edu"
   },
   education: [
 
@@ -282,7 +282,7 @@ export const portfolioData = {
       institution: "Signature Food Court, Dhaka",
       period: "2020– 2022",
       courses: [
-        " Created engaging social media content to boost audience interaction, tailoring language and style to align with brand goals. . "
+        " Created engaging social media content to boost audience interaction, tailoring language and style to align with brand goals."
       ]
     }
   ]
