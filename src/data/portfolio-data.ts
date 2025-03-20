@@ -153,7 +153,7 @@ export const portfolioData = {
       subtitle: " Testing the SAM, SAM2, and MedSAM models on medical image datasets to compare segmentation performance. Additionally, exploring how classification algorithms perform with the segmented data, focusing on transfer learning to address existing research gaps. ",
       authors: [
       { name: "Swapnil Biswas", link: null },
-       { name: "Scott E Umbaug", link: null },
+       { name: "Scott E Umbaugh", link: null },
        { name: "Robert LeAnder", link: null }
       //  { name: "", link: null },
       // { name: "", link: null },
