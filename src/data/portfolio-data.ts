@@ -1,260 +1,311 @@
 export const portfolioData = {
   about: {
-    description:
-      "I am a Graduate Research Assistant at the CVIP Lab and a Master’s student in Electrical and Computer Engineering at Southern Illinois University Edwardsville. I hold a B.Sc. in Computer Science and Engineering from United International University. My research lies at the intersection of Machine Learning, Computer Vision, Natural Language Processing, and Data Mining, with a focus on leveraging AI to solve real-world problems.",
-    contact: "sbiswas@siue.edu",
+    description: "I am currently working as a research assistant at the CVIP Lab while pursuing a Master of Science in Electrical and Computer Engineering at Southern Illinois University Edwardsville. I hold a B.Sc. in Computer Science and Engineering from United International University. My work and research focus on Machine Learning, Computer Vision, Natural Language Processing, and Data Mining, with a particular interest in applying these technologies to solve real-world problems.",
+    contact: "sbiswas@siue.edu"
   },
-
   education: [
-    {
-      period: "2024 – Present",
-      degree: "M.S. in Electrical and Computer Engineering",
-      institution: "Southern Illinois University Edwardsville, USA",
-      cgpa: "",
-    },
-    {
-      period: "2019 – 2023",
-      degree: "B.Sc. in Computer Science and Engineering",
-      institution: "United International University, Bangladesh",
-      cgpa: "3.88 / 4.00",
-    },
-    {
-      period: "2016 – 2018",
-      degree: "Higher Secondary Certificate",
-      institution: "Dhaka City College, Bangladesh",
-      cgpa: "5.00 / 5.00",
-    },
-  ],
 
+    {
+      period: "2024-Current",
+      degree: "Master of Science in Electrical and Computer Engineering",
+      institution: "Southern Illinois University at Edwardsville, Illinois, USA",
+      cgpa: ""
+    },
+    {
+      period: "2019-2023",
+      degree: "Bachelor of Science in Computer Science and Engineering ",
+      institution: "United International University, Dhaka, Bangladesh",
+      cgpa: "3.88/4.00"
+    },
+    {
+      period: "2016-2018",
+      degree: "Higher Secondary Certificate",
+      institution: "Dhaka City College, Dhaka, Bangladesh",
+      cgpa: "5.00/5.00"
+    }
+    
+  ]
+  ,
   publications: [
     {
-      title:
-        "A Bidirectional Siamese Recurrent Neural Network for Accurate Gait Recognition Using Body Landmarks",
-      subtitle: "Neurocomputing, 2024",
+      title: "A Bidirectional Siamese Recurrent Neural Network for Accurate Gait Recognition Using Body Landmarks",
       authors: [
-        "Proma Hossain Progga",
-        "Md Jobayer Rahman",
-        "Swapnil Biswas",
-        "Md. Shakil Ahmed",
-        "Arif Reza Anwary",
-        "Swakkhar Shatabda",
+        { name: "Proma Hossain Progga", link: null },
+        { name: "Md Jobayer Rahman", link: null },
+        { name: "Swapnil Biswas", link: null },
+        { name: "Md. Shakil Ahmed", link: null },
+        { name: "Arif Reza Anwary", link: "" },
+        { name: "Swakkhar Shatabda", link: "" }
       ],
+      subtitle: "In Neurocomputing Journal, 2024",
+      image: "/placeholder.svg",
       links: {
         paper: "https://doi.org/10.1016/j.neucom.2024.128313",
-      },
+        code: ""
+      }
     },
     {
       title: "Machine Learning for Load Forecasting in a Green Data Center",
-      subtitle: "IEEE, 2023",
       authors: [
-        "Md. Shakil Ahmed",
-        "Swapnil Biswas",
-        "Md Jobayer Rahman",
-        "Md Habibur Rahaman Alhadi",
-        "Rifat Ara Moon",
-        "Md Motaharul Islam",
+        { name: "Md. Shakil Ahmed", link: null },
+        { name: "Swapnil Biswas", link: null },
+        { name: "Md Jobayer Rahman", link: null },
+        { name: "Md Habibur Rahaman Alhadi", link: null },
+        { name: "Rifat Ara Moon", link: null },
+        { name: "Md Motaharul Islam", link: null }
       ],
+      subtitle: "In IEEE, 2023",
+      image: "/placeholder.svg",
       links: {
         paper: "https://doi.org/10.1109/STI59863.2023.10464816",
-      },
+        code: ""
+      }
     },
     {
-      title:
-        "K-Nearest Neighbour Classifier for Big Data Mining based on Informative Instances",
-      subtitle: "IEEE, 2023",
+      title: "K-Nearest Neighbour Classifier for Big Data Mining based on Informative Instances",
       authors: [
-        "Proma Hossain Progga",
-        "Md Jobayer Rahman",
-        "Swapnil Biswas",
-        "Md. Shakil Ahmed",
-        "Dewan Md Farid",
+        { name: "Proma Hossain Progga", link: null },
+        { name: "Md Jobayer Rahman", link: null },
+        { name: "Swapnil Biswas", link: null },
+        { name: "Md. Shakil Ahmed", link: null },
+        { name: "Dewan Md Farid", link: null }
       ],
+      subtitle: "In IEEE, 2023",
+      image: "/placeholder.svg",
       links: {
         paper: "https://doi.org/10.1109/I2CT57861.2023.10126147",
-      },
+        code: ""
+      }
     },
     {
-      title:
-        "A Machine Learning Approach for Predicting Efficient CPU Scheduling Algorithm",
-      subtitle: "IEEE, 2023",
+      title: "A Machine Learning Approach for Predicting Efficient CPU Scheduling Algorithm",
       authors: [
-        "Swapnil Biswas",
-        "Md. Shakil Ahmed",
-        "Md Jobayer Rahman",
-        "Anika Khaer",
-        "Md Motaharul Islam",
+        { name: "Swapnil Biswas", link: null },
+        { name: "Md. Shakil Ahmed", link: null },
+        { name: "Md Jobayer Rahman", link: null },
+        { name: "Anika Khaer", link: null },
+        { name: "Md Motaharul Islam", link: null }
       ],
+      subtitle: "In IEEE, 2023",
+      image: "/placeholder.svg",
       links: {
         paper: "https://doi.org/10.1109/STI59863.2023.10464816",
-      },
+        code: ""
+      }
     },
     {
-      title:
-        "CropCare: Advanced Crop Management System with Intelligent Advisory and Machine Learning Techniques",
-      subtitle: "IEEE, 2024",
+      title: "CropCare: Advanced Crop Management System with Intelligent Advisory and Machine Learning Techniques",
       authors: [
-        "Md. Jobayer Rahman",
-        "Md. Shakil Ahmed",
-        "Swapnil Biswas",
-        "Anika Tabassum Orchi",
-        "Raiyan Rahman",
-        "A.K.M. Muzahidul Islam",
+        { name: "Md. Jobayer Rahman", link: null },
+        { name: "Md. Shakil Ahmed", link: null },
+        { name: "Swapnil Biswas", link: null },
+        { name: "Anika Tabassum Orchi", link: null },
+        { name: "Raiyan Rahman", link: null },
+        { name: "A.K.M. Muzahidul Islam", link: null }
       ],
+      subtitle: "In IEEE, 2024",
+      image: "/placeholder.svg",
       links: {
         paper: "https://doi.org/10.1109/ICEEICT62016.2024.10534582",
-      },
+        code: ""
+      }
     },
     {
-      title:
-        "Analysis of MDE-Based Gamification Framework for Cognitive Evaluation",
-      subtitle: "Accepted at IEEE ICCTA 2024",
+      title: "Analysis of MDE Based Gamification Framework for Cognitive Evaluation",
       authors: [
-        "Mahbubul Islam",
-        "Swapnil Biswas",
-        "Md. Shakil Ahmed",
-        "Md. Jobayer Rahman",
-        "Ahmed Rafi Hasan",
-        "Al Amin",
-        "Md Saddam Hossain Mukta",
+        { name: "Mahbubul Islam", link: null },
+        { name: "Swapnil Biswas", link: null },
+        { name: "Md. Shakil Ahmed", link: null },
+        { name: "Md. Jobayer Rahman", link: null },
+        { name: "Ahmed Rafi Hasan", link: null },
+        { name: "Al Amin", link: null },
+        { name: "Md Saddam Hossain Mukta", link: null }
       ],
+      subtitle: "Accepted for presentation at the 2024 IEEE, 34th International Conference on Computer Theory and Applications (ICCTA). DOI will be assigned upon publication.",
+      image: "/placeholder.svg",
+      links: {
+        paper: "",
+        code: ""
+      }
     },
     {
-      title:
-        "Image Enhancement for Thermographic Detection of Canine Bone Cancer",
-      subtitle:
-        "Accepted for oral presentation at SPIE Defense + Commercial Sensing 2025, Orlando",
+      title: "Image Enhancement for Thermographic Detection of Canine Bone Cancer",
       authors: [
-        "Md. Sami Ul Hoque",
-        "Swapnil Biswas",
-        "Md. Sadman Sakib",
-        "Scott E Umbaugh",
-        "Robert LeAnder",
+       // { name: "", link: null },
+        { name: "Md. Sami Ul Hoque", link: null },
+        { name: "Swapnil Biswas", link: null },
+        { name: "Md. Sadman Sakib", link: null },
+        { name: "Scott E Umbaugh", link: null },
+        { name: "Robert LeAnder", link: null }
       ],
-    },
-  ],
-
+      subtitle: "Accepted for oral presentations at the Thermosense: Thermal Infrared Applications XLVII conference during SPIE Defense + Commercial Sensing 2025 in Orlando (April 13–17, 2025). DOI will be assigned upon publication.",
+      image: "/placeholder.svg",
+      links: {
+        paper: "",
+        code: ""
+      }
+    }
+  ]
+  ,
   research: [
     {
-      title:
-        "Comparative Study of SAM and MedSAM Models for Medical Image Segmentation",
-      subtitle:
-        "Exploring SAM, SAM2, and MedSAM models on medical image datasets, analyzing segmentation performance and transfer learning potential.",
-      authors: ["Swapnil Biswas", "Scott E Umbaugh", "Robert LeAnder"],
+      title: "Comparative Study of SAM and MedSAM Models for Medical Image Segmentation",
+      subtitle: " Testing the SAM, SAM2, and MedSAM models on medical image datasets to compare segmentation performance. Additionally, exploring how classification algorithms perform with the segmented data, focusing on transfer learning to address existing research gaps. ",
+      authors: [
+      { name: "Swapnil Biswas", link: null },
+       { name: "Scott E Umbaugh", link: null },
+       { name: "Robert LeAnder", link: null }
+      //  { name: "", link: null },
+      // { name: "", link: null },
+      // { name: "", link: null }
+     ],
+      image: "/placeholder.svg",
+      links: {
+        paper: "",
+        code: ""
+      }
     },
     {
       title: "Comparative Analysis of Protein Secondary Structure Prediction",
-      subtitle:
-        "Evaluated GNN-based models versus traditional methods, highlighting performance trade-offs in structure prediction tasks.",
-      authors: ["Swapnil Biswas", "Md. Shakil Ahmed", "Md. Jobayer Rahman"],
+      subtitle: "Analyzed prediction methods utilizing a graph neural network (GNN), demonstrating the superiority of traditional approaches. ",
+      authors: [
+      { name: "Swapnil Biswas", link: null },
+       { name: "Md. Shakil Ahmed", link: null },
+       { name: "Md. Jobayer Rahman", link: null },
+      // { name: "", link: null },
+    //   { name: "", link: null },
+      //  { name: "", link: null }
+      ],
+      image: "/placeholder.svg",
+      links: {
+        paper: "",
+        code: ""
+      }
+    },      
+    {
+      title: "Predicting Personalized Preferences in the Metaverse with Deep Learning and Gamification",
+      subtitle: "Developed a framework to predict personalized preferences using the Metaverse platform, leveraging Big5 personality traits derived from social media interactions. This project involved creating models to predict personality traits from virtual behaviors and to infer preferences from these traits, integrating machine learning and deep learning techniques. ",
+      authors: [
+      { name: "Mahbubul Islam", link: null },
+       { name: "Swapnil Biswas", link: null },
+       { name: "Md Saddam Hossain Mukta", link: null },
+      //  { name: "", link: null },
+    //   { name: "", link: null },
+    //   { name: "", link: null }
+      ],
+      image: "/placeholder.svg",
+      links: {
+        paper: "",
+        code: ""
+      }
     },
     {
-      title:
-        "Predicting Personalized Preferences in the Metaverse with Deep Learning and Gamification",
-      subtitle:
-        "Developed a deep learning pipeline to predict personality and preferences from virtual behavior using Big5 and social media data.",
+      title: "Big5 Personality Trait-Based Contextual Gamification Platform Selection:",
+      subtitle: "Developed platforms for personality trait extraction using LIWC, BERT, and NLP features to enhance gamification strategies. ",
       authors: [
-        "Mahbubul Islam",
-        "Swapnil Biswas",
-        "Md Saddam Hossain Mukta",
-      ],
+        { name: "Mahbubul Islam", link: null },
+        { name: "Swapnil Biswas", link: null },
+       { name: "Md Saddam Hossain Mukta", link: null },
+     ///  { name: "", link: null },
+      // { name: "", link: null },
+      // { name: "", link: null }
+     ],
+      image: "/placeholder.svg",
+      links: {
+        paper: "",
+        code: ""
+      }
     },
-    {
-      title: "Big5 Trait-Based Contextual Gamification Platform Selection",
-      subtitle:
-        "Used LIWC, BERT, and NLP features to enhance gamified user experiences through personality-tailored designs.",
-      authors: [
-        "Mahbubul Islam",
-        "Swapnil Biswas",
-        "Md Saddam Hossain Mukta",
-      ],
-    },
-  ],
 
+    // Add other publications similarly
+  ],
   honors: [
+
     {
-      title: "Competitive Graduate Award (CGA)",
-      institution: "Southern Illinois University Edwardsville",
-      year: "2024",
+      title: " Competitive Graduate Award (CGA)",
+      institution:  "Southern Illinois University Edwardsville",
+      year: "2024"
     },
+
     {
       title: "Magna Cum Laude",
       institution: "United International University",
-      year: "2024",
+      year: "2024"
     },
-    {
-      title: "University Merit Scholarship",
-      institution: "United International University",
-      period: "2019 – 2023",
-      description: "Awarded for consistent academic excellence.",
-    },
-    {
-      title: "Runner-Up, CSE Project Show",
-      institution: "United International University",
-      year: "2022",
-    },
-    {
-      title: "Research Grant",
-      institution: "Institute for Advanced Research, UIU",
-      year: "2023",
-    },
-  ],
 
+    {
+      title: "University Merit Scholarship, UIU",
+      institution: "United International University",
+      period: "2019-2023",
+      description: "Awarded scholarships for excellent academic performance"
+    },
+    {
+      title: "Runner-Up",
+      institution: "CSE Project Show, UIU",
+      year: "May 2022"
+    },
+    {
+      title: "Research Grant from Institute for Advanced Research",
+      institution: "United International University",
+      year: "2023"
+    }
+  ]
+  ,
   experience: [
     {
-      position: "Graduate Research Assistant",
+      position: "Graduate Research Assistant ",
       institution: "CVIP Lab, Southern Illinois University Edwardsville",
-      period: "Aug 2024 – Present",
-      details: [
-        "Designing deep learning models for skin lesion segmentation using SAM and MedSAM frameworks.",
-      ],
-    },
-    {
-      position: "Junior Software Developer",
-      institution: "Amirus, Dhaka",
-      period: "2023 – 2024",
-      details: [
-        "Developed scalable features, debugged critical issues, and improved code quality using agile methodologies.",
-      ],
+      period: "August 2024 – Present",
+      courses: [
+        " Developing deep learning models for accurate segmentation of skin lesions, utilizing SAM and MedSAM to enhance diagnostic precision.",
+  
+      ]
     },
     {
       position: "Undergraduate Teaching Assistant & Grader",
-      institution: "United International University",
+      institution: "United International University, Dhaka",
       period: "2021 – 2023",
-      details: [
-        "Facilitated lab sessions, graded assignments, and provided academic mentoring for students.",
-      ],
+      courses: [
+        "Assisted in lab sessions, graded assignments, provided feedback and guidance, and offered counseling hours."
+      ]
     },
     {
-      position: "Content Writer",
-      institution: "Signature Food Court, Dhaka",
-      period: "2020 – 2022",
-      details: [
-        "Produced engaging digital content tailored to branding and audience engagement goals.",
-      ],
+      position: "Junior Software Developer",
+      institution: "Amirus, Dhaka, Dhaka",
+      period: "2023– 2024",
+      courses: [
+        " Developed features, fixed bugs, and wrote unit tests by adhering to coding standards and agile practices, improving code quality and project alignment. "
+      ]
     },
-  ],
-
+    {
+      position: "Content Writer ",
+      institution: "Signature Food Court, Dhaka",
+      period: "2020– 2022",
+      courses: [
+        " Created engaging social media content to boost audience interaction, tailoring language and style to align with brand goals."
+      ]
+    }
+  ]
+  ,
   projects: [
     {
       title: "Protibaad",
-      type: "Full-Stack Application",
-      description:
-        "Public safety platform offering real-time crime alerts, missing-person reporting, polls, and opinion blogs for community engagement.",
-      tech: ["PHP", "MySQL", "HTML", "JavaScript", "Bootstrap"],
+      type: "Industry Project",
+      description: "Developed a software system designed to boost public safety by providing crime alerts and missing person reports, while also enabling users to share opinions via surveys and a blog on key community issues.",
+      domain: ["PHP", "MySQL", "HTML", "JavaScript", "Bootstrap"]
     },
     {
       title: "Learn & Share",
-      type: "Full-Stack Application",
-      description:
-        "Interactive academic platform with tutorials, notes, exam resources, forums, and tutor support to facilitate collaborative learning.",
-      tech: ["PHP", "MySQL", "HTML", "JavaScript", "Bootstrap"],
+      type: "Industry Project",
+      description: "Developed a versatile system for student support, offering tutorials across various subjects, exam resources, a discussion forum for problem-solving, note-sharing capabilities, blog content, simulations, and access to expert online tutors.",
+      domain: ["PHP", "MySQL", "HTML", "JavaScript", "Bootstrap"]
     },
     {
       title: "Online Food Ordering System",
-      type: "Desktop Application",
-      description:
-        "Real-time food ordering and delivery system built with JavaFX and multi-threading for seamless user interaction and live updates.",
-      tech: ["Java", "JavaFX", "Sockets", "Multithreading"],
-    },
-  ],
-};
+      type: "Industry Project",
+      description: "Developed an online food ordering system to facilitate seamless food ordering and delivery, integrating real-time order tracking and user-friendly interfaces.",
+      domain: ["Java", "JavaFX", "Sockets", "Multi-threading"]
+    }
+  ]
+
+}
