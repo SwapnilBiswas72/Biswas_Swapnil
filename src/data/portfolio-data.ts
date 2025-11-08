@@ -1,21 +1,18 @@
+"use client";
+
 import React from "react";
 import {
   Mail,
   Phone,
   MapPin,
   Linkedin,
-  GraduationCap,
-  BookOpen,
-  Briefcase,
-  Code2,
   ExternalLink,
-  ArrowRight,
   BookMarked,
 } from "lucide-react";
 
 const ACCENT = "#1658cd";
 
-export default function Portfolio() {
+export default function Page() {
   const data = {
     name: "Swapnil Biswas",
     role: "Graduate Research Assistant • CVIP Lab (SIUE)",
@@ -26,10 +23,11 @@ export default function Portfolio() {
     links: {
       linkedin: "https://www.linkedin.com/in/swapnil-biswas-6447b5218",
       scholar: "https://scholar.google.com/citations?user=-BgBK3kAAAAJ&hl=en&authuser=1",
-      website: "https://biswas-swapnil.vercel.app/",
+      website: "https://cviptools.siue.edu/",
+      portfolio: "https://biswas-swapnil.vercel.app/",
     },
     about:
-      "Graduate Research Assistant at the CVIP Lab while pursuing an M.S. in Electrical and Computer Engineering at Southern Illinois University Edwardsville. Strong background in CSE (UIU). I work across ML, CV, NLP, and Data Mining, focused on building practical, high‑impact systems.",
+      "Graduate Research Assistant at the CVIP Lab while pursuing an M.S. in Electrical and Computer Engineering at Southern Illinois University Edwardsville. Strong background in CSE (UIU). I work across ML, CV, NLP, and Data Mining, focused on building practical, high-impact systems.",
     interests: ["Deep Learning", "Medical Image Analysis", "Computer Vision", "Image Processing"],
   };
 
@@ -44,7 +42,10 @@ export default function Portfolio() {
   );
 
   const Pill = ({ children }) => (
-    <span className="px-3 py-1 rounded-full text-xs md:text-sm border" style={{ borderColor: ACCENT, color: ACCENT }}>
+    <span
+      className="px-3 py-1 rounded-full text-xs md:text-sm border"
+      style={{ borderColor: ACCENT, color: ACCENT }}
+    >
       {children}
     </span>
   );
@@ -63,7 +64,6 @@ export default function Portfolio() {
 
   return (
     <main className="min-h-screen bg-white text-neutral-900">
-      {/* Header */}
       <header className="sticky top-0 z-50 backdrop-blur bg-white/70 border-b">
         <nav className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -88,27 +88,38 @@ export default function Portfolio() {
         </nav>
       </header>
 
-      {/* Hero Section */}
-      <section className="mx-auto max-w-6xl px-4 py-12 md:py-16">
+      <section className="mx-auto max-w-6xl px-4 py-12 md:py-16" id="about">
         <h1 className="text-3xl md:text-5xl font-bold mb-3">{data.name}</h1>
         <p className="text-base md:text-lg text-neutral-700">{data.role}</p>
         <p className="text-sm md:text-base text-neutral-600 max-w-3xl mt-2">{data.about}</p>
+
         <div className="flex flex-wrap gap-2 pt-4">
           {data.interests.map((i) => (
             <Pill key={i}>{i}</Pill>
           ))}
         </div>
+
         <div className="flex flex-wrap gap-3 pt-4">
-          <LinkPill href={`mailto:${data.email}`}><Mail className="h-4 w-4" /> {data.email}</LinkPill>
-          <Pill><Phone className="h-4 w-4 inline mr-1" /> {data.phone}</Pill>
-          <Pill><MapPin className="h-4 w-4 inline mr-1" /> {data.location}</Pill>
-          <LinkPill href={data.links.linkedin}><Linkedin className="h-4 w-4" /> LinkedIn</LinkPill>
-          <LinkPill href={data.links.scholar}><BookMarked className="h-4 w-4" /> Google Scholar</LinkPill>
+          <LinkPill href={`mailto:${data.email}`}>
+            <Mail className="h-4 w-4" /> {data.email}
+          </LinkPill>
+          <Pill>
+            <Phone className="h-4 w-4 inline mr-1" /> {data.phone}
+          </Pill>
+          <Pill>
+            <MapPin className="h-4 w-4 inline mr-1" /> {data.location}
+          </Pill>
+          <LinkPill href={data.links.linkedin}>
+            <Linkedin className="h-4 w-4" /> LinkedIn
+          </LinkPill>
+          <LinkPill href={data.links.scholar}>
+            <BookMarked className="h-4 w-4" /> Google Scholar
+          </LinkPill>
         </div>
       </section>
 
       <Section title="Contact">
-        <div className="flex flex-col md:flex-row justify-between items-start gap-4">
+        <div className="flex flex-col md:flex-row justify-between items-start gap-4" id="contact">
           <div>
             <p className="text-sm text-neutral-700">Email: {data.email}</p>
             <p className="text-sm text-neutral-700">Phone: {data.phone}</p>
@@ -129,8 +140,8 @@ export default function Portfolio() {
       <footer className="border-t mt-10">
         <div className="mx-auto max-w-6xl px-4 py-6 text-xs text-neutral-600 flex items-center justify-between">
           <span>© {new Date().getFullYear()} {data.name}. All rights reserved.</span>
-          <a href={data.links.website} className="underline" style={{ color: ACCENT }}>
-            {data.links.website}
+          <a href={data.links.portfolio} className="underline" style={{ color: ACCENT }}>
+            {data.links.portfolio}
           </a>
         </div>
       </footer>
